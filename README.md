@@ -8,8 +8,11 @@ Designed and developed by a team of 2 game engineers in training using Unity3D i
 
 # Design Patterns:
  * MVC design pattern
- * Highly de-coupled code through the use of interfaces at different levels of abstraction
+   -Used MVC for implementing all the indevidual components like FighterJets(Player), Bullets, Enemies etc.
+ * Highly de-coupled code through the use of interfaces at different levels of abstraction(all the damageable components of the game are implementations of iDamageable interface).
  * State Machine
+   - State Machine architecture is used for implementating the scene management of the game.
+ * Object pooling - Creation of bullet instances are optimized using object pooling.
 
 # Principles Used:
 Single Responsibility Principle (SRP)
