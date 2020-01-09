@@ -17,5 +17,5 @@ Designed and developed by a team of 2 game engineers in training using Unity3D i
 Single Responsibility Principle (SRP)
 
 # Tools Used:
-Async-await (instead of coroutines)
-iTween (for enemy movements)
+* Async-await (instead of coroutines)
+* iTween (for enemy movements)
